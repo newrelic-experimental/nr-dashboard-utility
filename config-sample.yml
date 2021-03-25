@@ -1,0 +1,13 @@
+verbose: true
+debug: false
+userKey: null
+source:
+  accountId: 1
+  userKey: '[YOUR NEW RELIC USER KEY]'
+  dashboards:
+  - name: A Cool Dashboard
+  - guid: 12345678
+target:
+  accountId: 2
+  userKey: '[YOUR NEW RELIC USER KEY]'
+

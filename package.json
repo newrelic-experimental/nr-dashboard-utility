@@ -1,0 +1,22 @@
+{
+  "name": "nr-dashboard-utility",
+  "version": "1.0.0",
+  "description": "An application utility that can be used for bulk migration of NR1 dashboards from one account to another",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "if [[ ! -f config.yml ]]; then cp config-sample.yml config.yml; fi",
+    "start": "./main.js"
+  },
+  "author": "sdewitt@newrelic.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "csv": "^5.3.2",
+    "es6-promise-pool": "^2.5.0",
+    "node-fetch": "^2.6.1",
+    "yaml": "^1.10.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "lastUpdated": "Thu Mar 25 2021 15:49:01 GMT-0400 (Eastern Daylight Time)",
+  "projectName": "nr-dashboard-utility",
+  "projectUrl": "https://github.com/newrelic-experimental/nr-dashboard-utility",
+  "includeDev": true,
+  "dependencies": {
+    "csv@5.3.2": {
+      "name": "csv",
+      "version": "5.3.2",
+      "range": "^5.3.2",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/adaltas/node-csv",
+      "versionedRepoUrl": "https://github.com/adaltas/node-csv/tree/v5.3.2",
+      "licenseFile": "node_modules/csv/LICENSE",
+      "licenseUrl": "https://github.com/adaltas/node-csv/blob/v5.3.2/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "David Worms",
+      "email": "david@adaltas.com",
+      "url": "https://www.adaltas.com"
+    },
+    "es6-promise-pool@2.5.0": {
+      "name": "es6-promise-pool",
+      "version": "2.5.0",
+      "range": "^2.5.0",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/timdp/es6-promise-pool",
+      "versionedRepoUrl": "https://github.com/timdp/es6-promise-pool/tree/v2.5.0",
+      "licenseFile": "node_modules/es6-promise-pool/LICENSE",
+      "licenseUrl": "https://github.com/timdp/es6-promise-pool/blob/v2.5.0/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Tim De Pauw",
+      "url": "https://tmdpw.eu"
+    },
+    "node-fetch@2.6.1": {
+      "name": "node-fetch",
+      "version": "2.6.1",
+      "range": "^2.6.1",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/bitinn/node-fetch",
+      "versionedRepoUrl": "https://github.com/bitinn/node-fetch/tree/v2.6.1",
+      "licenseFile": "node_modules/node-fetch/LICENSE.md",
+      "licenseUrl": "https://github.com/bitinn/node-fetch/blob/v2.6.1/LICENSE.md",
+      "licenseTextSource": "file",
+      "publisher": "David Frank"
+    },
+    "yaml@1.10.0": {
+      "name": "yaml",
+      "version": "1.10.0",
+      "range": "^1.10.0",
+      "licenses": "ISC",
+      "repoUrl": "https://github.com/eemeli/yaml",
+      "versionedRepoUrl": "https://github.com/eemeli/yaml/tree/v1.10.0",
+      "licenseFile": "node_modules/yaml/LICENSE",
+      "licenseUrl": "https://github.com/eemeli/yaml/blob/v1.10.0/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Eemeli Aro",
+      "email": "eemeli@gmail.com"
+    },
+    "yargs@16.2.0": {
+      "name": "yargs",
+      "version": "16.2.0",
+      "range": "^16.2.0",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/yargs/yargs",
+      "versionedRepoUrl": "https://github.com/yargs/yargs/tree/v16.2.0",
+      "licenseFile": "node_modules/yargs/LICENSE",
+      "licenseUrl": "https://github.com/yargs/yargs/blob/v16.2.0/LICENSE",
+      "licenseTextSource": "file"
+    }
+  },
+  "devDependencies": {
+    "eslint@7.21.0": {
+      "name": "eslint",
+      "version": "7.21.0",
+      "range": "^7.21.0",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/eslint/eslint",
+      "versionedRepoUrl": "https://github.com/eslint/eslint/tree/v7.21.0",
+      "licenseFile": "node_modules/eslint/LICENSE",
+      "licenseUrl": "https://github.com/eslint/eslint/blob/v7.21.0/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Nicholas C. Zakas",
+      "email": "nicholas+npm@nczconsulting.com"
+    }
+  }
+}
